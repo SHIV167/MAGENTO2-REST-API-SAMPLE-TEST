@@ -1,0 +1,13 @@
+http://localhost.m3.com/rest/V1/integration/admin/token
+{ "username": "admin", "password": "Admin@123456" }
+POST method
+"eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEsInV0eXBpZCI6MiwiaWF0IjoxNjc3MjI0NjE2LCJleHAiOjE2NzcyMjgyMTZ9.-EVyNQ2Y_cTZhLfWGvhv2YO2qKu2cb-1LSamXbHve0g"
+
+
+http://localhost.m3.com/rest/V1/products/?searchCriteria[pageSize]=1&searchCriteria[currentPage]=2
+GET method
+
+
+http://localhost.m3.com/rest/V1/products/24-MB01/stockItems/1
+{"stockItem":{"qty":100}}
+PUT method
